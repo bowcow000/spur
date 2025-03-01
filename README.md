@@ -86,6 +86,9 @@ TRUNCATE TABLE table_name;
 TRUNCATE TABLE users;
 ```
 
+6) EXISTS
+
+
 
 
 
