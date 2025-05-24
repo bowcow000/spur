@@ -94,7 +94,7 @@ INSERT INTO active_users (name, age)
 SELECT name, age FROM users WHERE status = 'active';
 ```
 
-4) DELETE (удаление данных)
+**4) DELETE (удаление данных)**
 
 ```
 DELETE FROM table_name
@@ -117,7 +117,7 @@ DELETE FROM orders
 WHERE customer_id IN (SELECT id FROM customers WHERE status = 'inactive');
 ```
 
-5) TRUNCATE (очистка таблицы)
+**5) TRUNCATE (очистка таблицы)**
 
 ```
 TRUNCATE TABLE table_name;
@@ -170,7 +170,7 @@ FROM table1 a
 FULL JOIN table2 b ON a.key = b.key;
 ```
 
-7) Полезные функции
+**7) Полезные функции**
 
 Агрегатные функции:
 ```
